@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.authors = ["Vinay C"]
   s.files = Dir.glob("lib/**/*") + %w(Changelog.txt dynamoid-devise.gemspec Gemfile LICENSE Rakefile README.markdown)
   s.test_files = Dir.glob("test/**/*")
-  s.add_dependency 'dynamoid', '>= 0.7.1'
-  s.add_dependency 'devise', '>= 3.4.1'
+  s.add_dependency 'dynamoid'
+  s.add_dependency 'devise'
   s.add_dependency "SystemTimer", "~> 1.2" if RUBY_VERSION < "1.9"
 end
