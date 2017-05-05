@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir.glob("test/**/*")
   s.add_dependency 'dynamoid'
   s.add_dependency 'devise'
+  s.add_dependency 'thor'
   s.add_dependency "SystemTimer", "~> 1.2" if RUBY_VERSION < "1.9"
 end
